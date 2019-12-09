@@ -1,0 +1,406 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="viewport" content="initial-scal=1.0, width=device-width">
+      <style type="text/css">
+         body {
+         margin: 0;
+         padding: 0;
+         min-width: 100%!important;
+         color:#000000;
+         }
+         img {
+         display: block;
+         }
+         a img {
+         border:none;
+         }
+         h4 {
+         display: inline;
+         font-size: 8pt;
+         font-style: normal;
+         font-weight: normal;
+         }
+         h5 {
+         display: inline;
+         font-size: 8pt;
+         font-style: normal;
+         font-weight: normal;
+         }
+         hr {
+         border: 1px solid #dddddd;    
+         width: 600px;
+         margin-left: 36px;
+         margin-bottom: 20px;
+         margin-top: 20px;
+         }
+         .content {
+         width: 800px;
+         padding: 20px 50px 0;
+         font-family: Arial, sans-serif;
+         font-size: 14px;
+         line-height: 19px;
+         }
+         .content td {
+         font-family: Arial, sans-serif;
+         font-size: 18px;
+         line-height: 24px;
+         color:#000000;
+         }
+         .masthead {
+         font-size: 24px;
+         padding: 0;
+         }
+         .masthead a {
+         text-decoration: none;
+         color: #ee3128;
+         }
+         #intro_text p {
+         padding: 6px 0px 0px 36px;
+         margin-bottom: 24px;
+         width: 600px;
+         }
+         .register_button {
+         margin-left: 36px;
+         margin-bottom: 20px;
+         padding: 10px 10px 10px 10px;
+         }
+         .learn_more_button {
+         border: 1px solid;
+         margin-left: 36px;
+         margin-bottom: 40px;
+         }
+         .gallery_learn_more_button {
+         border: 1px solid;
+         margin-top: 20px;
+         }
+         .event_image {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         }
+         .event_text {
+         padding: 6px 0px 0px 36px;
+         margin-bottom: 0px;
+         width: 600px;
+         }
+         .section_title {
+         background-color:#eff0ed; 
+         padding: 25px 10px 25px 0px; 
+         text-align: right;
+         }
+         .exhibition_image {
+         margin-left: 28px;
+         margin: 50px 0px 30px 30px;
+         }
+         .exhibition_text {
+         float: right;
+         padding-top: 50px;
+         width: 275px;
+         }
+         .exhibition_image_two {
+         float: left;
+         margin-bottom: 30px;
+         padding-top: 30px;
+         margin-left: 35px;
+         }
+         .exhibition_text_two {
+         float: left;
+         padding-top: 65px;
+         margin-left: 30px;
+         width: 238px;
+         }
+         .exhibition_image_three {
+         padding-top: 30px;
+         margin-left: 30px;
+         width: 350px;
+         }
+         .exhibition_text_three {
+         float: right;
+         margin-right: 12px;
+         padding-top: 65px;
+         width: 238px;
+         font-family: Arial, sans-serif;
+         font-size: 18px;
+         line-height: 24px;
+         }
+         .gallery_hr {
+         border: 1px solid #dddddd;
+         width: 600px;
+         margin-bottom: 0px;
+         }
+         .footer {
+         font-size:12px;
+         line-height: 19px;
+         font-family: Arial, sans-serif;
+         color: #8c8c8c;
+         margin: auto;
+         margin-top: 40px;
+         padding: 19px 26px 20px 25px;
+         }
+         .footer td {
+         font-size:12px;
+         line-height: 19px;
+         font-family: Arial, sans-serif;
+         color: #8c8c8c;
+         }
+         .footer a {
+         text-decoration: none;
+         }
+         .image_credits_footer {
+         font-size:12px;
+         line-height: 19px;
+         font-family: Arial, sans-serif;
+         color: #8c8c8c;
+         padding: 0px 0px 30px 24px;
+         margin: auto;
+         }
+         .image_credits_footer p {
+         padding: 0px 20px 15px 0px;
+         margin: auto;
+         font-size: 12px;
+         }
+         /* COLOR SCHEME FOR ACTIVE LINKS */
+         .red a {
+         color: #EE3128;
+         font-weight: bold; 
+         }
+         .red img{
+         background: #EE3128;
+         }
+         .turquoise a {
+         color:#00A88E;
+         font-weight: bold; 
+         }
+         .turquoise img {
+         background: #00A88E;
+         }
+         .blue a {
+         color:#004C83;
+         font-weight: bold; 
+         }
+         .blue img {
+         background:#004C83;
+         }
+         .burgundy a {
+         color:#B4314D;
+         font-weight: bold; 
+         }
+         .burgundy img {
+         background: #B4314D;
+         border-color: #B4314D;
+         }
+         .black a {
+         color:#000000;
+         font-weight: bold; 
+         }
+         .black img {
+         background: #000000;
+         }
+         .gray a {
+         color:#BAB8AD;
+         font-weight: bold; 
+         }
+         .gray img {
+         background: #BAB8AD;
+         }
+         /* END COLOR SCHEME FOR ACTIVE LINKS */
+      </style>
+   </head>
+   <body bgcolor="#ffffff">
+      <!--*|IF:MC_PREVIEW_TEXT|*--> 
+      <!--[if !gte mso 9]><!---->
+      <span class="mcnPreview Text" style="display: none; font-size: 0px; line-height: 0px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; visibility: hidden; mso-hide:all;">*|MC_PREVIEW_TEXT|*</span><!--<![endif]--> 
+      <!--*|END:IF|*-->
+      <div style="display: none; max-height: 0px; overflow: hidden;">
+          ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+      </div>
+      <table width="100%" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+         <td>
+            <table class="content" align="center" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+         <td>
+            <!-- BGC Logo -->
+            <table width="700" class="masthead" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+               <tr>
+                  <td width="14" bgcolor="#000000" height="30">
+                      
+                  </td>
+                  <td valign="bottom">
+                     <a href="http://bgc.bard.edu/"><img src="http://eblasts.bgcdml.net/wp-content/uploads/2018/04/BGC_Logo_Gray.png" width="89" height="56" alt="Bard Graduate Center Logo" style="margin-left: 5px;"></a>
+                  </td>
+               </tr>
+               <tr>
+                  <td colspan="2">
+                     <table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                           <td width="14" bgcolor="#000000">
+                           </td>
+                        </tr>
+                     </table>
+                  </td>
+               </tr>
+            </table><!-- END BGC LOGO -->
+            <!-- MAILCHIMP EVENT CONTENT -->
+            <table width="700" border="0" cellpadding="0" cellspacing="0">
+               <tr>
+                  <td width="14" bgcolor="#000000">
+                      
+                  </td>
+                  <td>
+                     <a href="https://www.bgc.bard.edu/" target="_blank"><img src="http://eblasts.bgcdml.net/wp-content/uploads/2018/04/BannerImage-2.jpg" alt="Public Programs Banner Image" align="left" style="margin-top: 20px;"/></a>
+                  </td>
+               </tr>
+            </table>
+            <table class="red" width="700" border="0" cellpadding="0" cellspacing="0">
+               <tr>
+                  <td width="14" bgcolor="#000000">
+                      
+                  </td>
+                  <td id="intro_text">
+                     <p class="p1">
+                        This spring Bard Graduate Center is partnering with Textile Arts Center to run monthly hands-on workshops for adults, kids, and families that respond to our two exhibitions, <a href="https://www.bgc.bard.edu/">Fabricating Power with Balinese Textiles</a>and <a href="https://www.bgc.bard.edu/">The Codex and Crafts in Late Antiquity</a>. Join us to learn about wall hangings, drawing with thread, book making and woven beaded jewelry.</p>
+                     <p class="p1">
+                        <a href="https://www.bgc.bard.edu/">Textile Arts Center</a> is a NYC-based resource facility dedicated to raising awareness and understanding of textiles through creative educational programs for children and adults. TAC aspires to unite the textile community and advocate for the handmade by providing accessible, skills-based classes that reinvigorate engagement with traditional crafts. Techniques like weaving, sewing, and dyeing are practical, connective, and process-driven—common denominators for designers, artists, and creative practitioners around the world.</p>
+                     <p class="p1">
+                        Saturday, May 19, 2018<br />
+                        11 am–12:30 pm<br />
+                        18 West 86th Street, Lecture Hall
+                     </p>
+                     <a href="https://www.bgc.bard.edu/" target="_blank"><img class="register_button" src="http://eblasts.bgcdml.net/wp-content/uploads/2018/04/Register_Button.png" alt="Register Button" width="207" height="19"></a>
+                     <hr>
+                  </td>
+               </tr>
+            </table>
+            <table class="red" width="700" border="0" cellpadding="0" cellspacing="0">
+               <tr>
+                  <td width="14" bgcolor="#000000">
+                      
+                  </td>
+                  <td>
+                     <a href="https://www.bgc.bard.edu/" target="_blank">
+                     <img class="event_image" src="http://eblasts.bgcdml.net/wp-content/uploads/2018/04/EventImage-1.jpg" alt="Event Image">
+                     </a>
+                     <table class="event_text red" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                           <td>
+                              <p class="p1">
+                                 March 24<br />
+                                 11 am–2 pm<br />
+                                 Warp Painted Wall Hangings<br />
+                                 In this workshop, families will work collaboratively to create a hand-woven wall hanging on a loom, while experimenting with painting on the warp, a technique inspired by ikat.
+                              </p>
+                           </td>
+                        </tr>
+                     </table>
+                     <a href="https://www.bgc.bard.edu/" target="_blank"><img class="register_button" src="http://eblasts.bgcdml.net/wp-content/uploads/2018/04/Register_Button.png" alt="Register Button" width="207" height="19"></a>
+                     <hr>
+                  </td>
+               </tr>
+            </table>
+            <table class="red" width="700" border="0" cellpadding="0" cellspacing="0">
+               <tr>
+                  <td width="14" bgcolor="#000000">
+                      
+                  </td>
+                  <td>
+                     <table class="event_text red" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                           <td>
+                              <p class="p1">April 21<br />
+                                 11 am–2 pm<br />
+                                 Drawing with Thread<br />
+                                 In this workshop, families will work collaboratively to create a drawing using thread and different embroidery stitches and techniques.
+                              </p>
+                           </td>
+                        </tr>
+                     </table>
+                     <a href="https://www.bgc.bard.edu/" target="_blank"><img class="register_button" src="http://eblasts.bgcdml.net/wp-content/uploads/2018/04/Register_Button.png" alt="Register Button" width="207" height="19"></a>
+                  </td>
+               </tr>
+            </table><!-- END MAILCHIMP EVENT CONTENT -->
+            <!-- GALLERY ANNOUNCEMENTS -->
+            <table width="700" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+               <tr>
+                  <td class="section_title">
+                     <strong>On View in the Gallery</strong>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="exhibition_text red" >
+                     <a href="https://www.bgc.bard.edu" target="_blank">
+                     Exhibition Title<br>
+                     </a>
+                     January 1, 2018 – February 1, 2018      
+                     <a href="https://www.bgc.bard.edu" target="_blank">
+                     <img class="gallery_learn_more_button" src="http://eblasts.bgcdml.net/wp-content/uploads/2018/04/LearnMore_v3.png" alt="Learn More Button" width="224" height="32">
+                     </a>
+                     </span>
+                     <a href="https://www.bgc.bard.edu" target="_blank">
+                     <img class="exhibition_image" src="http://eblasts.bgcdml.net/wp-content/uploads/2018/04/ExhibitionImage-1.jpg">
+                     </a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <hr class="gallery_hr">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <span class="exhibition_text_two red" >
+                     <a href="https://www.bgc.bard.edu" target="_blank">
+                     Exhibition Title<br>
+                     </a>
+                     <a style="text-decoration: none;color: #000000;font-weight: normal;">
+                     January 1, 2018 – February 1, 2018
+                     </a>
+                     <a href="https://www.bgc.bard.edu" target="_blank">
+                     <img class="gallery_learn_more_button" src="http://eblasts.bgcdml.net/wp-content/uploads/2018/04/LearnMore_v3.png" alt="Learn More Button" width="224" height="32">
+                     </a>
+                     </span>
+                     <a href="https://www.bgc.bard.edu" target="_blank">
+                     <img class="exhibition_image_two" src="http://eblasts.bgcdml.net/wp-content/uploads/2018/04/ExhibitionImage-1.jpg" alt="Event Image">
+                     </a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                  </td>
+               </tr>
+            </table> <!-- END GALLERY ANNOUNCEMENTS -->
+            <!-- FOOTER -->
+            <table width="700" class="footer red" bgcolor="#eff0ed" border="0" cellpadding="0" cellspacing="0">
+               <tr>
+                  <td class="credit" width="700" colspan="2"> </td>
+               </tr>
+               <tr>
+                  <td valign="top" width="220">
+                     <a href="https://www.facebook.com/BardGradCenter" style="font-weight: normal;"><img src="http://eblasts.commons.bgc.bard.edu/wp-content/uploads/sites/50/2015/08/facebook-square-icon.png" alt="Facebook Icon" width="14" height="14" style="display: inline; vertical-align: sub; padding-bottom: 0px; background: none;">  Like us on Facebook</a><br>
+                     <a href="https://twitter.com/BardGradCenter" style="font-weight: normal;"><img src="http://eblasts.commons.bgc.bard.edu/wp-content/uploads/sites/50/2015/08/twitter-icon.png" alt="Twitter Icon" width="14" height="14" style="display: inline; vertical-align: sub; padding-bottom: 0px; background: none;">  Follow us on Twitter</a><br>
+                     <a href="https://www.instagram.com/bardgradcenter/" style="font-weight: normal;">
+                     <img src="http://eblasts.bgcdml.net/wp-content/uploads/2019/01/Instagram.png" alt="Instagram Icon" width="14" height="14" style="display: inline; vertical-align: sub; padding-bottom: 0px; background: none;"> Follow us on Instagram</a><br><br>
+                     <a href="*|FORWARD|*" style="font-weight: normal;">Forward this email to a friend.</a><br>
+                     <a href="*|UNSUB|*" style="font-weight: normal;">Unsubscribe from this email list.</a>
+                  </td>
+                  <td valign="bottom" width="480" style="text-align:right;">
+                     Bard Graduate Center<br><a href="http://bgc.bard.edu" style="font-weight: normal;">bgc.bard.edu</a>
+                     <br><br><br>
+                     Bard Graduate Center Gallery: <a style="text-decoration: none; color: #000000; font-weight: normal;">18 West 86th Street, New York, NY 10024</a><br>
+                     Academic Programs and Library: <a style="text-decoration: none; color: #000000; font-weight: normal;">38 West 86th Street, New York, NY 10024</a>        
+                  </td>
+               </tr>
+            </table><!-- END FOOTER -->
+            <!-- IMAGE CREDITS -->
+            <table width="700" class="image_credits_footer" bgcolor="#eff0ed" border="0" cellpadding="0" cellspacing="0">
+               <tr>
+                  <td>
+                     <p>Image caption: Cat ipsum dolor sit amet, leave hair everywhere jump launch to pounce upon little yarn mouse.</p>
+                  </td>
+               </tr>
+            </table><!-- END IMAGE CREDITS -->
+   </body>
+</html>
